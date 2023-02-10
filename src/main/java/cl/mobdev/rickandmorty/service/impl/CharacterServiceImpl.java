@@ -15,8 +15,6 @@ import java.io.IOException;
 @Service
 public class CharacterServiceImpl implements CharacterService {
 
-
-
     private final CharacterClient characterClient;
 
     public CharacterServiceImpl() {

@@ -27,11 +27,13 @@ public class MainController {
     @Autowired
     MainService mainService;
 
+    //GET DE PRUEBA PARA EL DESARROLLO
     @GetMapping("/character/{id}")
     public Character getCharacterById (@PathVariable int id) throws IOException {
         return characterService.getCharacterById (id);
     }
 
+    //GET DE PRUEBA PARA EL DESARROLLO
     @GetMapping("/location/{id}")
     public Location getLocationById(@PathVariable int id) throws IOException {
         return locationService.getLocationById(id);
